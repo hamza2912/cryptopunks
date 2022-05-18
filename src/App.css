@@ -1,0 +1,84 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: #626262;
+}
+
+.bg-pink{
+  background-color: #ff04b4;
+}
+
+.text-pink{
+  color: #ff04b4;
+}
+
+.h-96{
+  height: 27rem;
+}
+
+.bg-standard{
+  background-color: #638596;
+}
+
+.bg-orange{
+  background-color: orange;
+}
+
+.bg-yellow{
+  background-color: yellow;
+}
+
+.bg-red{
+  background-color: red;
+}
+
+.bg-green{
+  background-color: green;
+}
+
+.bg-pinkk{
+  background-color: pink;
+}
+
+.bg-purple{
+  background-color: purple;
+}
+
+.bg-dark-blue{
+  background-color: blue;
+}
+
+.bg-light-blue{
+  background-color: rgb(7, 141, 156);
+}
+
+.bg-grey{
+  background-color: grey;
+}
+
+.w-add1{
+  width: 700px;
+  height: 90px;
+}
+
+.w-add2{
+  width: 300px;
+  height: 250px;
+}
+
+
+
+@media only screen and (max-width:786px) {
+  .w-add1{
+    width: 100%;
+    height: auto;
+  }
+  .w-add2{
+    margin: 0 auto;
+  }
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
